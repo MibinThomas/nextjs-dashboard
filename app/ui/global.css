@@ -57,7 +57,7 @@ body.has-mouse::after{ opacity: 1; }
 /* Layer 1 — soft moving dark-blue caustics */
 body::before{
   background:
-    radial-gradient(60vmax 60vmax at 12% 18%, hsl(var(--water-blue) / .22) 0 45%, transparent 65%),
+    radial-gradient(60vmax 60vmax at 12% 18%, hsl(var(--water-blue) / .22) 0 45%,transparent 65%),
     radial-gradient(45vmax 45vmax at 85% 28%, hsl(var(--water-blue) / .20) 0 40%, transparent 67%),
     radial-gradient(70vmax 70vmax at 28% 82%, hsl(var(--water-blue) / .18) 0 52%, transparent 75%),
     repeating-radial-gradient(circle at 50% 50%, hsl(var(--water-blue) / .18) 0 2px, transparent 2px 8px);
